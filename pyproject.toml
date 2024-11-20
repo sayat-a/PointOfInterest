@@ -1,9 +1,12 @@
 [tool.poetry]
-name = "app"
+name = "poi"
 version = "0.1.0"
 description = ""
 authors = ["Sayat Aubakirov <sayat_aubakirov@mail.ru>"]
 readme = "README.md"
+packages = [
+  { include = "poi" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.12"
